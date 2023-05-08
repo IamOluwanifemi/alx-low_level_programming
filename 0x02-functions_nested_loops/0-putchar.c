@@ -1,12 +1,17 @@
 #include "main.h"
-
 /**
- * main - check the code
- *
- * Return: Always 0.
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-    print_alphabet();
-    return (0);
+char *sh = "_putchar";
+while (*sh)
+{
+_putchar(*sh);
+sh++;
+}
+_putchar('\n');
+return (0);
 }
